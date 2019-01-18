@@ -40,7 +40,7 @@
         ; turn off kernal and basic
         lda #$35
         sta $01
-        ; turn off cia interrups
+        ; turn off cia interrupts
         lda #$7f
         sta $dc0d
         sta $dd0d
