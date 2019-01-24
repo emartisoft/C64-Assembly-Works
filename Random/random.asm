@@ -14,7 +14,7 @@
         ldx #$00
 loop    
         lda $d41b       ; get random value $00-$ff
-        cmp #$30        ; $30 < randomvalue < $3a ( 0-9 characters)
+        cmp #$30        ; $30 <= randomvalue < $3a ( 0-9 characters)
         bcc loop
         cmp #$3a
         bcs loop
