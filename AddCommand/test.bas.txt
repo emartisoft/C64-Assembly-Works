@@ -1,0 +1,11 @@
+10 rem **** test ****
+15 cls
+20 screen 0,0,1
+30 locate4,2
+40 write"this is test to add command to basic"
+50 forx=0to1000:next
+60 border 15
+70 locate 20,6
+75 write"ls command is "
+76 ls
+99 goto 99
